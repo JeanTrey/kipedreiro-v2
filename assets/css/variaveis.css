@@ -1,0 +1,9 @@
+:root {
+    --cor-de-fundo: #fff;
+    --cor-principal: yellow;
+    --cor-do-texto: black;
+    --cor-secundaria: gray;
+    --cor-de-fundo-topo: black;
+    --fonte: 'Arial', sans-serif;
+    --tamanho-fonte: 16px;
+}
