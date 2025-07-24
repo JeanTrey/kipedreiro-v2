@@ -1,23 +1,102 @@
-.container-projetos {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
+.projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+    flex-direction: column;
+  }
 
-.card-projeto {
-    flex-basis: calc(25% - 10px);
-    height: 280px;
-    border-radius: 5px;
+
+  .titulo-projeto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 45px;
+  }
+
+  .container-projetos {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .cards-projeto {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+
+  .card-projeto {
     position: relative;
+    height: 300px;
     overflow: hidden;
     background-size: cover;
     background-position: center;
-    cursor: pointer;
-}
+    flex-basis: calc(50% - 10px);    
+  }
+  
 
-.projeto-imagem {
+  .projeto-imagem {
     width: 100%;
     height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+
+  .figcaption-projeto {
     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(100%);
     transition: transform 0.4s ease-in-out;
-} 
+    backdrop-filter: blur(5px);
+  }
+  
+  .card-projeto:hover .figcaption-projeto {
+    transform: translateY(0);
+  }
+  
+
+  .b-projetos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0; /* espaçamento em cima e embaixo */
+    width: 100%;
+  }
+  .botao-projetos {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .botao-projetos:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.05);
+  }
