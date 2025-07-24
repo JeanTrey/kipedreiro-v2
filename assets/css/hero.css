@@ -17,7 +17,7 @@
     backdrop-filter: blur(10px);
     color: white;
     width: 100%;
-    bottom: 0;
+    bottom: 0px;
     padding: 10px 20px;
     gap: 30px;    
 }
@@ -35,4 +35,9 @@
 .botao-orcamento:hover {
     background-color: darkorange;
     color: white;    
+}
+
+.icon-2 {
+    width: 30px;
+    height: 30px;
 }
