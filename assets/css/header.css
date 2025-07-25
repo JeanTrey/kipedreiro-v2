@@ -1,6 +1,7 @@
 header {
     display: flex;
     flex-direction: column;
+    box-shadow: 3px 2px;
 
 }
 
@@ -36,6 +37,10 @@ header {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.menu-navegacao a {
+    text-decoration: none;
 }
 
 

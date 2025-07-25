@@ -87,3 +87,31 @@
     color: black;
     transform: scale(1.05);
   }
+.cards-coluna {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.card-servico-pagina {
+    height: 400px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.figure-pagina-servicos {
+    display: flex;
+    
+}
+
+.figcaption-servico-pagina {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: translateX(-50%);
+}
