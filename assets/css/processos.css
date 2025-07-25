@@ -1,0 +1,87 @@
+.processos {
+    display: flex;
+    justify-content: center;
+}
+.titulo-processo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    margin-bottom: 45px;
+}
+
+.container-processos {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.cards-processo {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+
+.card-processo {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    flex-basis: calc(50% - 10px);    
+}
+  
+
+.processo-imagem {
+    width: 130px;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.figure-processo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.figcaption-processo {
+    height: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.b-processo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    width: 100%;
+  }
+  .botao-processo {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  .botao-processo:hover {
+    background-color: rgb(255, 187, 0);
+    color: black;
+    transform: scale(1.05);
+  }
